@@ -32,9 +32,13 @@ private :
 	Sprite* background;
 	Sprite* naration;
 	Sprite* Chat;
+	Sprite* C;
+	Sprite* C_s;
+	Sprite* C_p;
 
 	bool isNaration;
 	bool choice;
+	bool choicePart;
 
 
 	
@@ -52,4 +56,8 @@ public :
 	
 	void TimerSetting(float dTime);
 	void UISetting();
+
+	void Check();
+
+	void ChoiceEmpty();
 };

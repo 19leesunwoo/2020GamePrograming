@@ -1,0 +1,66 @@
+﻿  GameScene.cpp
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(53,11): warning C4244: '=': 'PX'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              PX=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\GameScene.cpp(9): message : 컴파일되는 함수 템플릿 인스턴스화 'void Object::setPos<int,int>(PX,PY)'에 대한 참조를 확인하세요.
+          with
+          [
+              PX=int,
+              PY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(54,11): warning C4244: '=': 'PY'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              PY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(59,13): warning C4244: '=': 'SX'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              SX=double
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\GameScene.cpp(35): message : 컴파일되는 함수 템플릿 인스턴스화 'void Object::setScale<double,int>(SX,SY)'에 대한 참조를 확인하세요.
+          with
+          [
+              SX=double,
+              SY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(60,13): warning C4244: '=': 'SY'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              SY=int
+          ]
+  MainScene.cpp
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(53,11): warning C4244: '=': 'PX'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              PX=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\MainScene.cpp(9): message : 컴파일되는 함수 템플릿 인스턴스화 'void Object::setPos<int,int>(PX,PY)'에 대한 참조를 확인하세요.
+          with
+          [
+              PX=int,
+              PY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(54,11): warning C4244: '=': 'PY'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              PY=int
+          ]
+  main.cpp
+  코드를 생성하고 있습니다...
+Application.obj : error LNK2019: Direct3DCreate9"public: void __cdecl Application::InitD3D(struct HWND__ *)" (?InitD3D@Application@@QEAAXPEAUHWND__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Application.obj : error LNK2019: D3DXCreateSprite"public: void __cdecl Application::InitD3D(struct HWND__ *)" (?InitD3D@Application@@QEAAXPEAUHWND__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Font.obj : error LNK2019: D3DXCreateFontIndirectW"public: __cdecl Font::Font(void)" (??0Font@@QEAA@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Object.obj : error LNK2019: D3DXMatrixMultiply"public: struct D3DXMATRIX & __cdecl D3DXMATRIX::operator*=(struct D3DXMATRIX const &)" (??XD3DXMATRIX@@QEAAAEAU0@AEBU0@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Object.obj : error LNK2019: D3DXMatrixTransformation2D"public: virtual void __cdecl Object::Render(void)" (?Render@Object@@UEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+SoundManager.obj : error LNK2019: DirectSoundCreate8"public: bool __cdecl SoundManager::InitializeDirectSound(struct HWND__ *)" (?InitializeDirectSound@SoundManager@@QEAA_NPEAUHWND__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+SoundManager.obj : error LNK2001: 확인할 수 없는 외부 기호 IID_IDirectSoundBuffer8
+TextureManager.obj : error LNK2019: D3DXCreateTextureFromFileExA"public: struct IDirect3DTexture9 * __cdecl TextureManager::LoadTextureFromFile(char const *)" (?LoadTextureFromFile@TextureManager@@QEAAPEAUIDirect3DTexture9@@PEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9d.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dsound.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dxguid.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\x64\Debug\Engine.exe : fatal error LNK1120: 8개의 확인할 수 없는 외부 참조입니다.

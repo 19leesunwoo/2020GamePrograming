@@ -1,0 +1,50 @@
+﻿  GameScene.cpp
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(53,11): warning C4244: '=': 'PX'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              PX=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\GameScene.cpp(9): message : 컴파일되는 함수 템플릿 인스턴스화 'void Object::setPos<int,int>(PX,PY)'에 대한 참조를 확인하세요.
+          with
+          [
+              PX=int,
+              PY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(54,11): warning C4244: '=': 'PY'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              PY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(59,13): warning C4244: '=': 'SX'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              SX=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\GameScene.cpp(13): message : 컴파일되는 함수 템플릿 인스턴스화 'void Object::setScale<int,int>(SX,SY)'에 대한 참조를 확인하세요.
+          with
+          [
+              SX=int,
+              SY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(60,13): warning C4244: '=': 'SY'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              SY=int
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(59,13): warning C4244: '=': 'SX'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              SX=double
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\GameScene.cpp(33): message : 컴파일되는 함수 템플릿 인스턴스화 'void Object::setScale<double,double>(SX,SY)'에 대한 참조를 확인하세요.
+          with
+          [
+              SX=double,
+              SY=double
+          ]
+C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Engine\Object.h(60,13): warning C4244: '=': 'SY'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              SY=double
+          ]
+  Engine.vcxproj -> C:\Users\fn970\OneDrive\바탕 화면\2020GamePrograming\Engine\Debug\Engine.exe
